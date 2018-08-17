@@ -53,24 +53,31 @@ p {font-size: 16px;}
     background-color: #BF68AC !important ;
 }
 
+/*img {*/
+    /*-webkit-filter: blur(2px);*/
+    /*filter: blur(2px);*/
+/*}*/
 
-div div div .overlay {
+.overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background-color: transparent;
     overflow: hidden;
     width: 100%;
     height: 0;
     transition: .5s ease;
 }
 
-.row:hover .overlay {
+.image:hover .overlay {
     height: 100%;
+
 }
 
-div div div div.text {
+
+
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -80,36 +87,5 @@ div div div div.text {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-}
-
-div div div .overlay2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-}
-
-.row:hover .overlay2 {
-    height: 100%;
-}
-
-div div div .overlay3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-}
-
-.row:hover .overlay3 {
-    height: 100%;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 }
