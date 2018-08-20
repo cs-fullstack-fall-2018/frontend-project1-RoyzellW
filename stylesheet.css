@@ -4,33 +4,50 @@ body {
     line-height: 1.8;
     color: #BF68AC;
 }
-p {font-size: 16px;}
-.margin {margin-bottom: 45px;}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.margin2 {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
 .bg-1 {
     background-color: #ffffff;
     color: #BF68AC;
 }
+
 .bg-2 {
     background-color: #E4C12F;
     color: #BF68AC;
 }
+
 .bg-3 {
     background-color: #474e5d;
     color: #BF68AC;
 }
+
 .bg-4 {
-    background-color: #32491F ;
+    background-color: #32491F;
     color: #BF68AC;
 }
 
 .bg-5 {
-    background-color: #100E13;
+    /*background-color: #100E13;*/
     color: #BF68AC;
 }
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -41,7 +58,8 @@ p {font-size: 16px;}
     letter-spacing: 5px;
     background-color: #474e5d;
 }
-.navbar-nav  li a:hover {
+
+.navbar-nav li a:hover {
     color: #BF68AC !important;
 }
 
@@ -50,13 +68,8 @@ p {font-size: 16px;}
 }
 
 .navbar-brand a:hover {
-    background-color: #BF68AC !important ;
+    background-color: #BF68AC !important;
 }
-
-/*img {*/
-    /*-webkit-filter: blur(2px);*/
-    /*filter: blur(2px);*/
-/*}*/
 
 .overlay {
     position: absolute;
@@ -72,9 +85,7 @@ p {font-size: 16px;}
 
 .image:hover .overlay {
     height: 100%;
-
 }
-
 
 
 .text {
@@ -88,4 +99,72 @@ p {font-size: 16px;}
     transform: translate(-50%, -50%);
     text-align: center;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+/* Dropdown Button */
+.dropbtn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.center {
+
+    background-color: #BF68AC;
+    color: black;
+}
+
+#Tarot\ Readings {
+    position: relative;
+
+}
+
+#Rune\ Readings {
+    position: relative;
+}
+
+#Guided\ Meditations {
+    position: relative;
 }

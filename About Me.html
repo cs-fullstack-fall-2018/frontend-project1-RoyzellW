@@ -1,17 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <title>My Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="JavaScript.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet.css">
-    <title>About Me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-<body class=".body">
+<body>
 
-<style>
+<!--Navigation bar functionality-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--Logo and link to my website once it's finished and uploaded-->
+            <a class="navbar-brand" href="Home.html">W.G.A.</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#About Me">About Me</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Services <span class="caret"></span></a>
+
+
+                    <div class="dropdown-content">
+
+                        <a href="#Tarot Readings">Tarot</a>
+
+                        <a href="#Rune Readings">Rune</a>
+
+                        <a href="#Guided Meditations">Meditations</a>
+
+                    </div>
+
+                </li>
+
+
+                <li><a href="#Portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="Tarot Readings" class="container-fluid bg-2 text-center">
+
+    <h1> Tarot </h1>
+
+    <h3 class="margin2">History of the Tarot</h3>
+
+    <br>
+
+    <div class="center">
+        <!--Div for the image-->
+        <div class="image">
+
+            <div class="col-sm-4">
+
+                <img src="Spread1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+
+                <!--Toggle hover effect-->
+
+                <div class="overlay">
+
+                    <!--text that appears in the hover-->
+
+                    <div class="text">
+
+                        True Black Tarot Deck
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>
+
+        According to Tarot historian Tom Tadfor Little, traditional playing cards were first seen in Europe in 1375, having been brought over from the Islamic societies
+        where they had been used for centuries before that.
+        These cards were not, however, Tarot cards. At this point, he says, there is no evidence to show that Tarot cards had yet been created,
+        which goes against many claims that ordinary playing cards evolved from the original Tarot deck.
+    <br>
+        It wasn't until 1440 that the cards that were most likely the origin of Tarot cards were first mentioned.
+        In a letter from the Duke of Milan, there was a request for several decks of "triumph" cards to be used at a special event.
+        The letter differentiated triumph cards from regular "playing" cards. It does appear, however, that the first Tarot decks were created as a game.
+        There were four suits with cards numbered one through ten and also court cards that included a queen, king, knight and page.
+        The deck also included 22 symbolic picture cards that did not belong to any suit.
+    <br>
+        The decks were used to play a game called triumph that was similar to bridge.
+        In triumph, 21 of the 22 special picture cards were permanent trump cards.
+        The game spread quickly to all parts of Europe.
+        People began referring to as tarocchi, which is an Italian version of the French word tarot, around 1530.
+    <br>
+        In 1781, in France and England, followers of the occult discovered Tarot cards.
+        They saw the symbolic pictures of the cards as having more meaning than the simple trump cards they were used for at the time.
+        They used the cards as a divination tool, and occult writers wrote about "the Tarot." After this, the Tarot became a part of occult philosophy.
+        There are also those who believe that Tarot cards originated in Egypt.
+        In some circles, they are thought to be the sole surviving "book" from the great fire that burned the libraries of ancient Egypt.
+        In this theory, the cards are considered to be the hieroglyphical keys to life.
+
+    </p>
+
+    <h3 class="margin2"> Uses for the Tarot</h3>
+
+    <p>
 
 
 
-</style>
+    </p>
+
+</div>
+
+
+<div id="Rune Readings" class="container-fluid bg-3 text-center">
+    <h3 class="margin">Rune Readings</h3><br>
+    <div class="row">
+        <!--Div for the image-->
+        <div class="image">
+            <div class="col-sm-4">
+                <img src="Tarot.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <!--Toggle hover effect-->
+                <div class="overlay">
+                    <!--text that appears in the hover-->
+                    <div class="text">
+                        Journey Through Tarot
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Div for the second image-->
+        <div class="image">
+            <div class="col-sm-4">
+                <img src="Runes.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                <!--Toggle hover effect-->
+                <div class="overlay">
+                    <!--text that appears in the hover-->
+                    <div class="text">
+                        Diving Spirit Through Runes
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Div for the third image-->
+        <div class="image">
+            <div class="col-sm-4">
+                <img src="meditation.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                <!--Toggle hover effect-->
+                <div class="overlay">
+                    <!--Text that appears in the hover-->
+                    <div class="text">
+                        Journey Through Self
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="Guided Meditations" class="container-fluid bg-4 text-center">
+    <h3 class="margin">Guided Meditation</h3><br>
+    <div class="row">
+        <!--Div for the image-->
+        <div class="image">
+            <div class="col-sm-4">
+                <img src="Tarot.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <!--Toggle hover effect-->
+                <div class="overlay">
+                    <!--text that appears in the hover-->
+                    <div class="text">
+                        Hi
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Div for the second image-->
+        <div class="image">
+            <div class="col-sm-4">
+                <img src="Runes.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                <!--Toggle hover effect-->
+                <div class="overlay">
+                    <!--text that appears in the hover-->
+                    <div class="text">
+                        Hi
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Div for the third image-->
+        <div class="image">
+            <div class="col-sm-4">
+                <img src="meditation.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                <!--Toggle hover effect-->
+                <div class="overlay">
+                    <!--Text that appears in the hover-->
+                    <div class="text">
+                        Hi
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid bg-5 text-center">
+    <hi> Contact Me</hi>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+    </form>
+</footer>
 
 </body>
 </html>
